@@ -4,3 +4,10 @@ export class AddBookDto {
   description: string;
   author: string;
 }
+
+export class UpdateBookDto {
+  id: number;
+  title: string;
+  description: string;
+  author: string;
+}
